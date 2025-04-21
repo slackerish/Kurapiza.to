@@ -7,18 +7,18 @@ if ($conn->connect_error) {
     die("Database connection failed.");
 }
 
-$websiteTitle = "AniPaca";
+$websiteTitle = "Kurapiza";
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https" : "http";
 $websiteUrl = "{$protocol}://{$_SERVER['SERVER_NAME']}";
 $websiteLogo = $websiteUrl . "/public/logo/logo.png";
 $contactEmail = "@gmail.com";
 
-$version = "2.1";
+$version = "1.0";
 
-$discord = "https://dcd.gg/anipaca";
-$github = "https://github.com/PacaHat";
-$telegram = "https://t.me/anipaca";
-$instagram = "https://www.instagram.com/pxr15_"; 
+$discord = "";
+$github = "";
+$telegram = "";
+$instagram = ""; 
 
 // all the api you need
 $zpi = "https://your-hosted-api.com/api"; //https://github.com/PacaHat/zen-api
